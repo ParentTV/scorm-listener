@@ -1,12 +1,12 @@
 # ParentTV Scorm Listener
 
-Use scorm-listener.js to receive SCORM API messages from an embedded SCORM package.
+Use index.js to receive SCORM API messages from an embedded SCORM package.
 
 ```html
 
 <html>
 <head>
-    <script src="scorm-listener.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ParentTV/scorm-listener"></script>
     <script>
         const api = new ScormListener("scorm", "");
         api.on("SetValue", (data) => {
