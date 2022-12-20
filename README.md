@@ -56,7 +56,7 @@ For more information on SCORM CMI data, please refer to [the SCORM runtime refer
 </head>
 <body>
 ...
-<iframe src="https://dam.parenttv.com/embed/<licenseKey>/<assetID>" id="scorm"/>
+<iframe src="https://dam.parenttv.com/embed/<licenseKey>/<assetID>?scorm=true" id="scorm"/>
 ...
 </body>
 </html>
